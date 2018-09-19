@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CollapseModule } from 'ngx-bootstrap';
 import { RouterModule, Routes } from '@angular/router';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -37,6 +38,7 @@ library.add(fas, faLinkedin, faInstagram, faEnvelope, faPodcast);
   imports: [
     BrowserModule,
     NgbModule,
+    AccordionModule.forRoot(),
     CollapseModule,
     FontAwesomeModule
 

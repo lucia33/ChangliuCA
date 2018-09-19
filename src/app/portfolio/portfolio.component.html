@@ -1,9 +1,12 @@
-<section id="portfolio">
-  <div class="container" style="padding-top: 75px;">
+<section id="portfolio" class="inner-width-wrapper">
+  <h2>
+    Project I've worked on
+  </h2>
+  <accordion>
 
-    <div class="row featurette animated">
-      <div class="col-md-6">
-        <h2 class="featurette-heading">Resource Center <span class="text-muted">powered by Busch Systems</span></h2>
+    <accordion-group [panelClass]="customClass" accordion-heading>
+      <div class="acc-heading" accordion-heading>
+        <h3>Resource Center <span class="text-muted">powered by Busch Systems</span></h3>
         <div class="featureIcons">
           <i class="devicon-php-plain"></i>
           <i class="devicon-mysql-plain-wordmark"></i>
@@ -11,25 +14,22 @@
           <i class="devicon-css3-plain-wordmark"></i>
           <i class="devicon-jquery-plain-wordmark"></i>
         </div>
+      </div>
+      <div class="project-content">
         <p class="lead">
           Resource Center is a collection analytics software and sustainability information hub. I
           participated in developing both front-end and backend of this app in collaboration with a team
           of marketing, graphic and coding superstars.
         </p>
-      </div>
-      <div class="col-md-6">
-        <a target="_blank" href="https://www.buschsystems.com/resource-center/">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="images/busch_rc_main_min.jpeg"
-            data-holder-rendered="true">
+        <a class="mt-1" target="_blank" href="https://www.buschsystems.com/resource-center/">
+          <button type="button" class="btn btn-outline-light">Take a look</button>
         </a>
       </div>
-    </div>
+    </accordion-group>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-6 col-md-push-6">
-        <h2 class="featurette-heading">Busch Systems <span class="text-muted">main site</span></h2>
+    <accordion-group [panelClass]="customClass" accordion-heading>
+      <div class="acc-heading" accordion-heading>
+        <h3>Busch Systems <span class="text-muted">main site</span></h3>
         <div class="featureIcons">
           <i class="devicon-wordpress-plain"></i>
           <i class="devicon-php-plain"></i>
@@ -38,39 +38,35 @@
           <i class="devicon-jquery-plain-wordmark"></i>
           <i class="devicon-linux-plain"></i>
         </div>
+      </div>
+      <div class="project-content">
         <p class="lead">Wordpress customization</p>
         <p class="lead">Pagespeed optimization</p>
         <p class="lead">Local-Staging Development Environment</p>
-      </div>
-      <div class="col-md-6 col-md-pull-6">
-        <a target="_blank" href="https://www.buschsystems.com/">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="images/busch_main_min.png"
-            data-holder-rendered="true">
+        <a class="mt-1" target="_blank" href="https://www.buschsystems.com/">
+          <button type="button" class="btn btn-outline-light">Take a look</button>
         </a>
       </div>
-    </div>
+    </accordion-group>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-6">
-        <h2 class="featurette-heading">Junglewood</h2>
+    <accordion-group [panelClass]="customClass" accordion-heading>
+      <div class="acc-heading" accordion-heading>
+        <h3>Junglewood</h3>
         <div class="featureIcons">
           <i class="devicon-html5-plain-wordmark"></i>
           <i class="devicon-css3-plain-wordmark"></i>
           <i class="devicon-wordpress-plain"></i>
         </div>
+      </div>
+      <div class="project-content">
         <p class="lead">Wordpress customization</p>
         <p class="lead">Catalogue creation</p>
-      </div>
-      <div class="col-md-6">
-        <a target="_blank" href="https://www.junglewood.ca/">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="images/junglewood_main-min.jpeg"
-            data-holder-rendered="true">
+        <a class="mt-1" target="_blank" href="https://www.junglewood.ca/">
+          <button type="button" class="btn btn-outline-light">Take a look</button>
         </a>
       </div>
-    </div>
+    </accordion-group>
 
+  </accordion>
 
-  </div>
 </section>
