@@ -3,6 +3,97 @@
     Project I've worked on
   </h2>
   <accordion>
+    <accordion-group [panelClass]="customClass" accordion-heading>
+      <div class="acc-heading" accordion-heading>
+        <h3>Arthritis Society</h3>
+        <div class="featureIcons">
+
+        </div>
+      </div>
+      <div class="project-content">
+        <ul>
+          <li>
+            Create/maintain web components/widget including province selector, rating tool using SASS & Javascript
+          </li>
+          <li>
+            Develop
+            <a class="mt-1" target="_blank" href="http://www.walkforarthritis.ca/">Walk for Arthritis</a>
+            using Javascript, HTML/CSS, on Blackbaud Luminate Online platform
+          </li>
+        </ul>
+        <app-right-button [hrefLink]="'https://www.arthritis.ca/'" [linkText]="'Arthritis Society'"></app-right-button>
+      </div>
+    </accordion-group>
+
+    <accordion-group [panelClass]="customClass" accordion-heading>
+      <div class="acc-heading" accordion-heading>
+        <h3>Food Banks Canada</h3>
+        <div class="featureIcons">
+
+        </div>
+      </div>
+      <div class="project-content">
+        <ul>
+          <li>
+            Create new web components including search box, sticky menu, using CSS & Javascript
+          </li>
+          <li>
+            Maintain/debug components includig carousel, social media feed
+          </li>
+          <li>
+            Develop/maintain TV/web/iOS apps for
+            <a class="mt-1" target="_blank" href="https://foodbankscanada.ca/impossiblechoices/index.html">Impossible
+              Choices</a>
+            using Javascript, Sass, Gulp, Swift 4, Xcode
+          </li>
+        </ul>
+        <app-right-button [hrefLink]="'https://www.foodbankscanada.ca/'" [linkText]="'Food Banks Canada'"></app-right-button>
+      </div>
+    </accordion-group>
+
+    <accordion-group [panelClass]="customClass" accordion-heading>
+      <div class="acc-heading" accordion-heading>
+        <h3>Aplan by Volvo</h3>
+        <div class="featureIcons">
+
+        </div>
+      </div>
+      <div class="project-content">
+        <ul>
+          <li>
+            Apply new branding with SASS, Gulp
+          </li>
+          <li>
+            Built forms, integrate with Kentico platform in C#
+          </li>
+          <li>
+            Revamp campaign using Angular 5
+          </li>
+          <!-- <li>
+            Won award
+          </li> -->
+        </ul>
+        <app-right-button [hrefLink]="'https://aplanbyvolvo.com/'"></app-right-button>
+      </div>
+    </accordion-group>
+
+    <accordion-group [panelClass]="customClass" accordion-heading>
+      <div class="acc-heading" accordion-heading>
+        <h3>Matildas Magnolias</h3>
+        <div class="featureIcons">
+
+        </div>
+      </div>
+      <div class="project-content">
+        <ul>
+          <li>
+            Create/maintain web components including homepage layout styles, billboards, purchase flow form functions &
+            styles using HTML/CSS, Javascript
+          </li>
+        </ul>
+        <app-right-button [hrefLink]="'https://matildasbloombox.com/'"></app-right-button>
+      </div>
+    </accordion-group>
 
     <accordion-group [panelClass]="customClass" accordion-heading>
       <div class="acc-heading" accordion-heading>
@@ -21,9 +112,7 @@
           participated in developing both front-end and backend of this app in collaboration with a team
           of marketing, graphic and coding superstars.
         </p>
-        <a class="mt-1" target="_blank" href="https://www.buschsystems.com/resource-center/">
-          <button type="button" class="btn btn-outline-light">Take a look</button>
-        </a>
+        <app-right-button [hrefLink]="'https://www.buschsystems.com/resource-center/'"></app-right-button>
       </div>
     </accordion-group>
 
@@ -43,9 +132,7 @@
         <p class="lead">Wordpress customization</p>
         <p class="lead">Pagespeed optimization</p>
         <p class="lead">Local-Staging Development Environment</p>
-        <a class="mt-1" target="_blank" href="https://www.buschsystems.com/">
-          <button type="button" class="btn btn-outline-light">Take a look</button>
-        </a>
+        <app-right-button [hrefLink]="'https://www.buschsystems.com/'"></app-right-button>
       </div>
     </accordion-group>
 
@@ -61,9 +148,7 @@
       <div class="project-content">
         <p class="lead">Wordpress customization</p>
         <p class="lead">Catalogue creation</p>
-        <a class="mt-1" target="_blank" href="https://www.junglewood.ca/">
-          <button type="button" class="btn btn-outline-light">Take a look</button>
-        </a>
+        <app-right-button [hrefLink]="'https://www.junglewood.ca/'"></app-right-button>
       </div>
     </accordion-group>
 

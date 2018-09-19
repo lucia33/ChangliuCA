@@ -10,6 +10,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faPodcast } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -19,8 +20,9 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { IntroComponent } from './intro/intro.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { RightButtonComponent } from './right-button/right-button.component';
 
-library.add(fas, faLinkedin, faInstagram, faEnvelope, faPodcast);
+library.add(fas, faLinkedin, faInstagram, faEnvelope, faPodcast, faGithub);
 
 // const appRoutes: Routes = [
 //   { path: 'portfolio', component: PortfolioComponent },
@@ -33,7 +35,8 @@ library.add(fas, faLinkedin, faInstagram, faEnvelope, faPodcast);
     FooterComponent,
     AboutComponent,
     IntroComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    RightButtonComponent
   ],
   imports: [
     BrowserModule,
