@@ -1,8 +1,16 @@
+section {
+    height: 100vh;
+    position: relative;
+    top: -4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .title {
     font-weight: 200;
     letter-spacing: .1rem;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    // margin-top: 20vh;
+    // margin-bottom: 20vh;
 }
 .sub-title {
     font-size: 1.2rem;
@@ -12,8 +20,8 @@ h1 {
     letter-spacing: .25rem;
 }
 @media (min-width: 576px) {
-    .title {
-        margin-top: 35vh;
-        margin-bottom: 40vh;
-    }
+    // .title {
+    //     margin-top: 35vh;
+    //     margin-bottom: 40vh;
+    // }
 }
